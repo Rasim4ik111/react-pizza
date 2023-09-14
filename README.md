@@ -1,6 +1,6 @@
 # 🍕 React Pizza 🍕
 
-# 🛠 Технологии:
+### 🛠 Технологии:
 
 - **ReactJS 18**
 - **TypeScript**
