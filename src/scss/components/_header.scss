@@ -1,6 +1,8 @@
-@import '../variables';
+@import "../variables";
 
 .header {
+  background-color: #1a1a1a;
+  border-radius: 10px 10px  0 0 ;
   border-bottom: 1px solid $gray-line;
   padding: 40px 0;
 
@@ -26,9 +28,9 @@
     }
 
     h1 {
-      color: #181818;
+      color: #ececec;
       font-size: 24px;
-      letter-spacing: 1%;
+      letter-spacing: 0.08rem;
       text-transform: uppercase;
       font-weight: 800;
     }
