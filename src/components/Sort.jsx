@@ -4,12 +4,12 @@ export const Sort = ({ value, onChangeSort }) => {
   const [open, setOpen] = React.useState(false);
 
   const list = [
-    { name: "Популярные (Убывание)", sortProperty: "rating" },
-    { name: "Популярные (Возрастание)", sortProperty: "-rating" },
-    { name: "Цена (Убывание)", sortProperty: "price" },
-    { name: "Цена (Возрастание)", sortProperty: "-price" },
-    { name: "Алфавит (Убывание)", sortProperty: "title" },
-    { name: "Алфавит (Возрастание)", sortProperty: "-title" },
+    { name: "Популярные (убывание)", sortProperty: "rating" },
+    { name: "Популярные (возрастание)", sortProperty: "-rating" },
+    { name: "Цена (убывание)", sortProperty: "price" },
+    { name: "Цена (возрастание)", sortProperty: "-price" },
+    { name: "Алфавит (убывание)", sortProperty: "title" },
+    { name: "Алфавит (возрастание)", sortProperty: "-title" },
   ];
 
   const onClickListItem = (i) => {
